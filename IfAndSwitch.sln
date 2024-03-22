@@ -1,0 +1,48 @@
+//class promedio
+//{
+
+//    public static void Main(string[] args)
+//    {
+//        double prom;
+//        const double limit = 6.0;
+
+//        Console.WriteLine("Ingrese su promedio");
+//        prom= double.Parse(Console.ReadLine());
+
+//        if( prom >=limit)
+//        {
+//            Console.WriteLine("El alumno aprobo");
+//        }
+//        else
+//        {
+//            Console.WriteLine("El alumno la dejo");
+//        }
+//}
+
+
+//  }
+
+
+class par
+{
+
+    public void Main(string[] args)
+    {
+        double number;
+        const double numberTwo = 2;
+
+        Console.WriteLine("Ingrese un numero");
+        number=double.Parse(Console.ReadLine());
+
+        if(number % numberTwo ==0)
+        {
+            Console.WriteLine("El numero es par");
+        }
+        else
+        {
+            Console.WriteLine("El numero es impar");
+        }
+
+        Console.Clear();
+    }
+}
